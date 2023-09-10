@@ -87,7 +87,7 @@ text-transform: uppercase;
 
 .hero-button {
 border-radius: 4px;
-background: #2196F3;
+background: var(--logo-color);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
@@ -197,5 +197,44 @@ letter-spacing: 0.42px;
 }
 
 .footer-link:hover, :active, :focus {
-  color: var(--logo-color);
+  color: var(--logo-colo);
+}
+
+/* Portfolio */
+
+.buttons {
+color: #212121;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62em;
+letter-spacing: 0.03em;
+cursor: pointer;
+border: 1px solid #F5F4FA;
+background-color:#F5F4FA;
+font-family:inherit;
+}
+
+.buttons:hover,  
+.buttons:focus {
+  background-color: var(--logo-color);
+  color: #ffffff;
+  border: 1px solid var(--logo-color);
+}
+
+.portofolio-section h3{
+color: var(--main-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 2em;
+letter-spacing: 0.06em;
+}
+
+.portofolio-section p {
+color:var(--secondary-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.87em; /* 187.5% */
+letter-spacing: 0.03em;
 }
