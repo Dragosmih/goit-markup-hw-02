@@ -55,6 +55,10 @@ letter-spacing: 0.02em;
   color: var(--logo-color);
 } 
 
+.current {
+color: var(--logo-color);
+}
+
 .contact-link {
 color:var(--secondary-color);
 font-family: Roboto;
@@ -98,6 +102,10 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1.875em;
 letter-spacing: 0.96px;
+}
+
+.hero-button:hover{
+  background-color:#1775c1
 }
 
 /* Details section */
